@@ -1,0 +1,12 @@
+imports [
+  RouterModule.forRoot(myRouter, {useHash: ture})
+]
+
+
+
+2. angular2项目显示加载中，只需要在模块的标签中书写加载中代码，界面加载完成以后就会覆盖，标签里面的内容
+selector: "my-new"
+
+<my-app>loading...</my-app>
+
+<my-new>loging...</my-new>
